@@ -25,7 +25,7 @@ void GreenColor() {
   analogWrite(green, 0);
   analogWrite(blue, 255);
 }
-void sariRenk() { 
+void YellowColor() { 
   analogWrite(red, 0);
   analogWrite(green, 0);
   analogWrite(blue, 255);
@@ -74,7 +74,7 @@ void loop()
   {
     delay(1000);
     x = 4; 
-    sariRenk();
+    YellowColor();
     return; 
   }
 
